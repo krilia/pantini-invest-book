@@ -1,5 +1,5 @@
 ---
-description: Pantini Invest
+description: Pantini & Co
 ---
 
 # О книге
