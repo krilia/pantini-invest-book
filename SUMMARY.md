@@ -7,5 +7,10 @@
 * [Расширение для веб-терминала ТИ](faq/terminal-extension.md)
 * [Группы, каналы и боты в Telegram](faq/telegram-resources.md)
 * [Частые проблемы](faq/chastye-problemy.md)
-* [Полезные ссылки](faq/poleznye-ssylki.md)
+* [Полезные ссылки](faq/poleznye-ssylki/README.md)
+  * [Терминал Аврора](faq/poleznye-ssylki/terminal-avrora.md)
+
+## 1. Пустоши
+
+* [Лагерь новобранцев](1.-pustoshi/lager-novobrancev.md)
 
