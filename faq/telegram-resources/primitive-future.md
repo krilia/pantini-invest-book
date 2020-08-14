@@ -1,5 +1,5 @@
 ---
-description: 'https://t.me/primitive_future'
+description: '@primitive_future'
 ---
 
 # Primitive Future
