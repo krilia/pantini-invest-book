@@ -4,8 +4,10 @@
 
 ## FAQ
 
-* [Расширение для веб-терминала ТИ](faq/terminal-extension.md)
-* [Группы, каналы и боты в Telegram](faq/telegram-resources.md)
+* [Расширение для веб-терминала ТИ](faq/terminal-extension/README.md)
+  * [Установка](faq/terminal-extension/ustanovka.md)
+* [Группы, каналы и боты в Telegram](faq/telegram-resources/README.md)
+  * [Primitive Future](faq/telegram-resources/primitive-future.md)
 * [Частые проблемы](faq/chastye-problemy.md)
 * [Полезные ссылки](faq/poleznye-ssylki/README.md)
   * [Терминал Аврора](faq/poleznye-ssylki/terminal-avrora.md)
