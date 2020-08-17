@@ -13,7 +13,6 @@
   * [Onaryx](faq/telegram-resources/onaryx.md)
   * [Warden](faq/telegram-resources/warden.md)
   * [Lair of Pantini](faq/telegram-resources/lair-of-pantini.md)
-  * [Pantini & Co](faq/telegram-resources/pantini-and-co.md)
   * [John Pantini. Биржевой поэт](faq/telegram-resources/john-pantini.-birzhevoi-poet.md)
 * [Частые проблемы](faq/chastye-problemy.md)
 * [Полезные ссылки](faq/poleznye-ssylki/README.md)
