@@ -1,7 +1,3 @@
----
-description: '@primitive_future'
----
-
 # Primitive Future
 
 
