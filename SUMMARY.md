@@ -16,11 +16,11 @@
 * [Полезные ссылки](faq/poleznye-ssylki/README.md)
   * [Терминал Аврора](faq/poleznye-ssylki/terminal-avrora.md)
 
-## 1. Пустоши
+## 1. Пустоши <a id="wastelands"></a>
 
-* [Чтение брокерского отчёта](1.-pustoshi/lager-novobrancev.md)
-* [Повышение скорости чтения](1.-pustoshi/povyshenie-skorosti-chteniya.md)
-* [Расширение для веб-терминала](1.-pustoshi/rasshirenie-dlya-veb-terminala.md)
-* [Система достижений](1.-pustoshi/sistema-dostizhenii/README.md)
-  * [Черновик с достижениями](1.-pustoshi/sistema-dostizhenii/chernovik-s-dostizheniyami.md)
+* [Чтение брокерского отчёта](wastelands/lager-novobrancev.md)
+* [Повышение скорости чтения](wastelands/povyshenie-skorosti-chteniya.md)
+* [Расширение для веб-терминала](wastelands/rasshirenie-dlya-veb-terminala.md)
+* [Система достижений](wastelands/sistema-dostizhenii/README.md)
+  * [Черновик с достижениями](wastelands/sistema-dostizhenii/achievement-draft.md)
 
