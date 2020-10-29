@@ -21,6 +21,6 @@
 * [Чтение брокерского отчёта](wastelands/lager-novobrancev.md)
 * [Повышение скорости чтения](wastelands/povyshenie-skorosti-chteniya.md)
 * [Расширение для веб-терминала](wastelands/rasshirenie-dlya-veb-terminala.md)
-* [Система достижений](wastelands/sistema-dostizhenii/README.md)
-  * [Черновик с достижениями](wastelands/sistema-dostizhenii/achievement-draft.md)
+* [Система достижений](wastelands/achievements/README.md)
+  * [Черновик с достижениями](wastelands/achievements/achievement-draft.md)
 
