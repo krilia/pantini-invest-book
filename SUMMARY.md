@@ -18,5 +18,9 @@
 
 ## 1. Пустоши
 
-* [Лагерь новобранцев](1.-pustoshi/lager-novobrancev.md)
+* [Чтение брокерского отчёта](1.-pustoshi/lager-novobrancev.md)
+* [Повышение скорости чтения](1.-pustoshi/povyshenie-skorosti-chteniya.md)
+* [Расширение для веб-терминала](1.-pustoshi/rasshirenie-dlya-veb-terminala.md)
+* [Система достижений](1.-pustoshi/sistema-dostizhenii/README.md)
+  * [Черновик с достижениями](1.-pustoshi/sistema-dostizhenii/chernovik-s-dostizheniyami.md)
 
