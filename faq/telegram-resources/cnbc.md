@@ -4,5 +4,7 @@ description: '@pantini_cnbc'
 
 # CNBC
 
-{% embed url="https://t.me/pantini\_cnbc" %}
+[https://t.me/pantini\_cnbc](https://t.me/pantini_cnbc)
+
+Агрегатор новостей CNBC.com
 

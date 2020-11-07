@@ -4,7 +4,7 @@ description: '@pantini_warden_bot'
 
 # Warden
 
-{% embed url="https://t.me/pantini\_warden\_bot" %}
+[https://t.me/pantini\_warden\_bot](https://t.me/pantini_warden_bot)
 
 Отправьте боту команду **/token** и получите в ответ ваш личный ключ и попутно ваш **id** в Telegram.
 

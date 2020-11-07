@@ -4,7 +4,7 @@ description: '@pantini_contests'
 
 # Contests
 
-Открытый канал с конкурсами.
+[https://t.me/pantini\_contests](https://t.me/pantini_contests)
 
-{% embed url="https://t.me/pantini\_contests" %}
+Открытый канал с конкурсами.
 
