@@ -20,7 +20,7 @@
 
 ## 1. Пустоши <a id="wastelands"></a>
 
-* [Подготовка рабочей среды](wastelands/podgotovka-rabochei-sredy.md)
+* [Подготовка рабочей среды](wastelands/getting-started.md)
 * [Чтение брокерского отчёта](wastelands/lager-novobrancev.md)
 * [Повышение скорости чтения](wastelands/povyshenie-skorosti-chteniya.md)
 * [Расширение для веб-терминала](wastelands/rasshirenie-dlya-veb-terminala.md)
