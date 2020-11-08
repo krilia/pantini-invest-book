@@ -14,16 +14,16 @@
   * [Rats](faq/telegram-resources/rats.md)
   * [Onaryx](faq/telegram-resources/onaryx.md)
   * [Warden](faq/telegram-resources/warden.md)
-  * [John Pantini. Биржевой поэт](faq/telegram-resources/john-pantini.-birzhevoi-poet.md)
+  * [John Pantini. Биржевой поэт](faq/telegram-resources/john-pantini-trash.md)
 * [Расширение Pantini Tools](faq/pantini-tools.md)
 * [Терминал Аврора](faq/aurora.md)
 
 ## 1. Пустоши <a id="wastelands"></a>
 
 * [Подготовка рабочей среды](wastelands/getting-started.md)
-* [Чтение брокерского отчёта](wastelands/lager-novobrancev.md)
-* [Повышение скорости чтения](wastelands/povyshenie-skorosti-chteniya.md)
-* [Расширение для веб-терминала](wastelands/rasshirenie-dlya-veb-terminala.md)
+* [Чтение брокерского отчёта](wastelands/reading-broker-rep.md)
+* [Повышение скорости чтения](wastelands/speeding-up.md)
+* [Расширение для веб-терминала](wastelands/terminal-extension.md)
 * [Система достижений](wastelands/achievements/README.md)
   * [Черновик с достижениями](wastelands/achievements/achievement-draft.md)
 
