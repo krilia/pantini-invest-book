@@ -27,3 +27,7 @@
 * [Система достижений](wastelands/achievements/README.md)
   * [Черновик с достижениями](wastelands/achievements/achievement-draft.md)
 
+## Подсобка <a id="back-room"></a>
+
+* [Решето Аткина](back-room/resheto-atkina.md)
+
