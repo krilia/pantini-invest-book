@@ -138,7 +138,7 @@ $ .\Cmder.exe /REGISTER USER
 
 ![&#x41E;&#x43F;&#x446;&#x438;&#x438; &#x43F;&#x440;&#x438; &#x443;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43A;&#x435;](../.gitbook/assets/image%20%288%29.png)
 
- При запуске можно сразу перейти на вкладку **Customize**, и нажать **All settings...**
+ При запуске можно сразу перейти на вкладку **Customize** и нажать **All settings...**
 
 ![](../.gitbook/assets/image%20%2811%29.png)
 
