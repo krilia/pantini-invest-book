@@ -1,3 +1,7 @@
+---
+description: '@CocklomaxsAnthill'
+---
+
 # Cocklomax's Anthill
 
 [https://t.me/CocklomaxsAnthill](https://t.me/CocklomaxsAnthill)
