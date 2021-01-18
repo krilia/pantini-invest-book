@@ -18,6 +18,7 @@
 * [Расширение Pantini Tools](faq/pantini-tools.md)
 * [Терминал Аврора](faq/aurora.md)
 * [Учебное про биржу](faq/stock-exchange/README.md)
+  * [Расписание торгов СПб/США](faq/stock-exchange/spbex-us-schedule.md)
   * [Определение цен открытия/закрытия бумаг с Nasdaq](faq/stock-exchange/nasdaq-crosses.md)
 
 ## 1. Пустоши <a id="wastelands"></a>
