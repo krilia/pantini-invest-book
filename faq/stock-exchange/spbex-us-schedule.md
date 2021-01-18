@@ -23,3 +23,9 @@
 
 Этот график касается бумаг, листингованных на NYSE и NASDAQ. Не применимо для бумаг TCS и бумаг, торгующихся на немецких биржах.
 
+{% hint style="info" %}
+[https://spbexchange.ru/ru/stocks/inostrannye/raspisanie/](https://spbexchange.ru/ru/stocks/inostrannye/raspisanie/)
+
+По ссылке подробно расписан график торгов иностранными бумагами на бирже СПб.
+{% endhint %}
+
