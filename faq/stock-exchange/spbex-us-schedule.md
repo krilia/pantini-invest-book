@@ -29,3 +29,11 @@
 По ссылке подробно расписан график торгов иностранными бумагами на бирже СПб.
 {% endhint %}
 
+{% file src="../../.gitbook/assets/nasdaq\_sys\_hours.pdf" caption="Часы работы систем Nasdaq" %}
+
+{% hint style="info" %}
+Часы работы биржи NYSE и связанный с ней структур:
+
+[https://www.nyse.com/markets/hours-calendars](https://www.nyse.com/markets/hours-calendars)
+{% endhint %}
+
