@@ -11,6 +11,7 @@
   * [Primitive Future](faq/telegram-resources/primitive-future.md)
   * [CNBC](faq/telegram-resources/cnbc.md)
   * [Fly](faq/telegram-resources/fly.md)
+  * [Biopharm](faq/telegram-resources/biopharm.md)
   * [Rats](faq/telegram-resources/rats.md)
   * [Onaryx](faq/telegram-resources/onaryx.md)
   * [Warden](faq/telegram-resources/warden.md)
