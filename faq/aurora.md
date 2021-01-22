@@ -6,7 +6,7 @@
 
 [https://unitedtraders.com/trading/aurora](https://unitedtraders.com/trading/aurora)
 
-## Расшифровка обозначений ECN в окне Level2 и ленте сделок
+## Расшифровка обозначений ECN в окне Level2 и ленте сделок <a id="ecn-codes"></a>
 
 | Лента сделок | Level2 | Описание \(если есть\) |
 | :--- | :--- | :--- |
