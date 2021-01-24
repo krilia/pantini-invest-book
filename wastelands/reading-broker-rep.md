@@ -37,5 +37,7 @@
 [https://eloquentjavascript.net/](https://eloquentjavascript.net/)
 
 [https://www.freecodecamp.org/learn](https://www.freecodecamp.org/learn)
+
+[Основы JS за 90 минут](https://m.youtube.com/watch?v=4QHFhIjF2L0)
 {% endhint %}
 
