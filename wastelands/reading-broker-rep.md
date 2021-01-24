@@ -31,3 +31,11 @@
 
 Возвращайтесь после прочтения.
 
+{% hint style="warning" %}
+Как ещё можно изучать JavaScript? Могут быть полезны следующие ресурсы и курсы:
+
+[https://eloquentjavascript.net/](https://eloquentjavascript.net/)
+
+[https://www.freecodecamp.org/learn](https://www.freecodecamp.org/learn)
+{% endhint %}
+
