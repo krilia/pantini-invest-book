@@ -39,5 +39,7 @@
 [https://www.freecodecamp.org/learn](https://www.freecodecamp.org/learn)
 
 [Основы JS за 90 минут](https://m.youtube.com/watch?v=4QHFhIjF2L0)
+
+[JavaScript Основы для Начинающих - Полный Курс за 6 часов \[2020\]](https://www.youtube.com/watch?v=Bluxbh9CaQ0&feature=youtu.be)
 {% endhint %}
 
