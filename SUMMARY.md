@@ -19,7 +19,7 @@
 * [Расширение Pantini Tools](faq/pantini-tools.md)
 * [Терминал Аврора](faq/aurora.md)
 * [Учебное про биржу](faq/stock-exchange/README.md)
-  * [Правило SEC 611 и ISO-ордер](faq/stock-exchange/pravilo-sec-611-i-iso-order.md)
+  * [Правило SEC 611 и ISO-ордер](faq/stock-exchange/sec-611-iso-order.md)
   * [Расписание торгов СПб/США](faq/stock-exchange/spbex-us-schedule.md)
   * [Определение цен открытия/закрытия бумаг с Nasdaq](faq/stock-exchange/nasdaq-crosses.md)
 
