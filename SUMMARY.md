@@ -6,7 +6,6 @@
 
 * [Группы, каналы и боты в Telegram](faq/telegram-resources/README.md)
   * [Lair of Pantini](faq/telegram-resources/lair-of-pantini.md)
-  * [Cocklomax's Anthill](faq/telegram-resources/cocklomaxs-anthill.md)
   * [Contests](faq/telegram-resources/contests.md)
   * [Primitive Future](faq/telegram-resources/primitive-future.md)
   * [CNBC](faq/telegram-resources/cnbc.md)
