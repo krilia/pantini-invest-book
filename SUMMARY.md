@@ -23,14 +23,19 @@
   * [Расписание торгов СПб/США](faq/stock-exchange/spbex-us-schedule.md)
   * [Определение цен открытия/закрытия бумаг с Nasdaq](faq/stock-exchange/nasdaq-crosses.md)
 
-## 1. Пустоши <a id="wastelands"></a>
+## Пустоши <a id="wastelands"></a>
 
 * [Подготовка рабочей среды](wastelands/getting-started.md)
-* [Чтение брокерского отчёта](wastelands/reading-broker-rep.md)
-* [Повышение скорости чтения](wastelands/speeding-up.md)
 * [Расширение для веб-терминала](wastelands/terminal-extension.md)
-* [Система достижений](wastelands/achievements/README.md)
-  * [Черновик с достижениями](wastelands/achievements/achievement-draft.md)
+
+## Топи <a id="marshes"></a>
+
+* [Чтение брокерского отчёта](marshes/reading-broker-rep.md)
+
+## Пещеры <a id="caves"></a>
+
+* [Система достижений](caves/achievements/README.md)
+  * [Черновик с достижениями](caves/achievements/achievement-draft.md)
 
 ## Подсобка <a id="back-room"></a>
 
