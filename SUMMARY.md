@@ -2,7 +2,7 @@
 
 * [О книге](README.md)
 
-## FAQ
+## 📌 FAQ
 
 * [Группы, каналы и боты в Telegram](faq/telegram-resources/README.md)
   * [Lair of Pantini](faq/telegram-resources/lair-of-pantini.md)
@@ -26,7 +26,9 @@
 ## Пустоши <a id="wastelands"></a>
 
 * [Подготовка рабочей среды](wastelands/getting-started.md)
-* [Расширение для веб-терминала](wastelands/terminal-extension.md)
+* [Аврора - сохранение пароля и автоматический вход](wastelands/aurora-save-password-auto-login.md)
+* [✏️ Создание репозитория рабочего проекта](wastelands/sozdanie-rabochego-proekta.md)
+* [✏️ Расширение для веб-терминала](wastelands/terminal-extension.md)
 
 ## Топи <a id="marshes"></a>
 
