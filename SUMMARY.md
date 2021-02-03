@@ -9,6 +9,7 @@
   * [Contests](faq/telegram-resources/contests.md)
   * [Primitive Future](faq/telegram-resources/primitive-future.md)
   * [CNBC](faq/telegram-resources/cnbc.md)
+  * [SPBEX News](faq/telegram-resources/spbex-news.md)
   * [Fly](faq/telegram-resources/fly.md)
   * [Biopharm](faq/telegram-resources/biopharm.md)
   * [Rats](faq/telegram-resources/rats.md)
