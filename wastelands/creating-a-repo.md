@@ -3,7 +3,7 @@
 {% hint style="warning" %}
 _Репозиторием_ называют место, где хранится код проекта.
 
-Вся текущая и будущая разработка будет производиться в [одном](https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D0%BD%D0%BE%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B9) репозитории [Github](https://github.com/) под названием **jpx** \(**J**ohn **P**antini E**x**tensions\).
+Вся текущая и будущая разработка будет производиться в [одном](https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D0%BD%D0%BE%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B9) репозитории [Github](https://github.com/) под названием [**jpx** ](https://github.com/johnpantini/jpx/tree/johnpantini)\(**J**ohn **P**antini E**x**tensions\).
 
 **Github** нужен для удобного распространения исходного кода всего проекта между заинтересованными участниками. Внутри **Github** используется система контроля версий [**Git**](https://ru.wikipedia.org/wiki/Git) ****\(о ней речь пойдёт позднее\).
 {% endhint %}
