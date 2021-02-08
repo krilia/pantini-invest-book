@@ -28,7 +28,7 @@
 
 * [Подготовка рабочей среды](wastelands/getting-started.md)
 * [Аврора - сохранение пароля и автоматический вход](wastelands/aurora-save-password-auto-login.md)
-* [✏️ Создание репозитория рабочего проекта](wastelands/sozdanie-rabochego-proekta.md)
+* [Создание репозитория рабочего проекта](wastelands/creating-a-repo.md)
 * [✏️ Расширение для веб-терминала](wastelands/terminal-extension.md)
 
 ## Топи <a id="marshes"></a>
@@ -39,6 +39,10 @@
 
 * [Система достижений](caves/achievements/README.md)
   * [Черновик с достижениями](caves/achievements/achievement-draft.md)
+
+## Джунгли <a id="jungle"></a>
+
+* [✏️ \[Материал в работе\]](jungle/material-v-rabote.md)
 
 ## Подсобка <a id="back-room"></a>
 
