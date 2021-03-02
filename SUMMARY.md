@@ -37,8 +37,8 @@
 
 ## Пещеры <a id="caves"></a>
 
-* [Чтение брокерского отчёта](caves/reading-broker-rep.md)
-* [Система достижений](caves/achievements/README.md)
+* [✏️ Чтение брокерского отчёта](caves/reading-broker-rep.md)
+* [✏️ Система достижений](caves/achievements/README.md)
   * [Черновик с достижениями](caves/achievements/achievement-draft.md)
 
 ## Джунгли <a id="jungle"></a>
