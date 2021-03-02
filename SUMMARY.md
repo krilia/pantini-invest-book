@@ -28,14 +28,16 @@
 * [Подготовка рабочей среды](wastelands/getting-started.md)
 * [Аврора - сохранение пароля и автоматический вход](wastelands/aurora-save-password-auto-login.md)
 * [Создание репозитория рабочего проекта](wastelands/creating-a-repo.md)
-* [✏️ Расширение для веб-терминала](wastelands/terminal-extension.md)
 
-## Топи <a id="marshes"></a>
+## Болота <a id="marshes"></a>
 
-* [Чтение брокерского отчёта](marshes/reading-broker-rep.md)
+---
+
+* [Автонажатие кнопок под сообщениями в TG-каналах](tg-button-autoclicking.md)
 
 ## Пещеры <a id="caves"></a>
 
+* [Чтение брокерского отчёта](caves/reading-broker-rep.md)
 * [Система достижений](caves/achievements/README.md)
   * [Черновик с достижениями](caves/achievements/achievement-draft.md)
 
