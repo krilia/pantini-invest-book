@@ -17,7 +17,6 @@
   * [Warden](faq/telegram-resources/warden.md)
   * [SPBEX TS](faq/telegram-resources/spbex-ts.md)
   * [John Pantini. Биржевой поэт](faq/telegram-resources/john-pantini-trash.md)
-* [Расширение Pantini Tools](faq/pantini-tools.md)
 * [Терминал Аврора](faq/aurora.md)
 * [Учебное про биржу](faq/stock-exchange/README.md)
   * [Правило SEC 611 и ISO-ордер](faq/stock-exchange/sec-611-iso-order.md)
