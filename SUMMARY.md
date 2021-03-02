@@ -31,9 +31,7 @@
 
 ## Болота <a id="marshes"></a>
 
----
-
-* [Автонажатие кнопок под сообщениями в TG-каналах](tg-button-autoclicking.md)
+* [Автонажатие кнопок под сообщениями в TG-каналах](marshes/tg-button-autoclicking.md)
 
 ## Пещеры <a id="caves"></a>
 
