@@ -20,7 +20,7 @@ Redis - это база данных с дополнительными возм�
 
 {% embed url="https://github.com/microsoftarchive/redis/releases" %}
 
-Выбираем файл  [Redis-x64-3.2.100.msi](https://github.com/microsoftarchive/redis/releases/download/win-3.2.100/Redis-x64-3.2.100.msi), запускаем, устанавливаем. Указываем порт **26379**. 
+Выбираем файл [Redis-x64-3.2.100.msi](https://github.com/microsoftarchive/redis/releases/download/win-3.2.100/Redis-x64-3.2.100.msi), запускаем, устанавливаем. Указываем порт **26379**. 
 
 ![](../.gitbook/assets/image%20%28110%29.png)
 
