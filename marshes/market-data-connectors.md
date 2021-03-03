@@ -20,9 +20,23 @@
 
 ## Получение доступа к Alor OpenAPI
 
-На [https://alor.dev/docs](https://alor.dev/docs) есть отдельная регистрация для разработчика. Там нужно задать пароль. Регистрируемся по ссылке:
+{% embed url="https://www.alorbroker.ru/blog/alor-openapi---prostoy-dostup-v-finteh" %}
+
+Регистрируемся по ссылке:
 
 {% embed url="https://alor.dev/register" %}
+
+После регистрации подтверждаем учетную запись через почту. Далее входим в портал для разработчиков через [https://alor.dev/login](https://alor.dev/login)
+
+В разделе **Мои приложения** нажимаем кнопку **Добавить**.
+
+Документация к Open API располагается по ссылке [https://alor.dev/docs](https://alor.dev/docs)
+
+Информацию о нововведениях, а также техническую поддержку можно получить в официальном канале и чате Alor Open API:
+
+[https://t.me/alor\_openapi](https://t.me/alor_openapi)
+
+[https://t.me/alor\_openapi\_chat](https://t.me/alor_openapi_chat)
 
 ## Установка Redis на Windows \(опционально\)
 
