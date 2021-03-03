@@ -32,7 +32,7 @@
 ## Болота <a id="marshes"></a>
 
 * [Автонажатие кнопок под сообщениями в TG-каналах](marshes/tg-button-autoclicking.md)
-* [✏️ Подключение к рыночным данным Alor](marshes/alor-on-windows.md)
+* [✏️ Подключение к рыночным данным](marshes/market-data-connectors.md)
 
 ## Пещеры <a id="caves"></a>
 
