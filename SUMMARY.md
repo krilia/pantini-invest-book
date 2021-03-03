@@ -15,6 +15,7 @@
   * [Rats](faq/telegram-resources/rats.md)
   * [Onaryx](faq/telegram-resources/onaryx.md)
   * [Warden](faq/telegram-resources/warden.md)
+  * [SPBEX SEC](faq/telegram-resources/spbex-sec.md)
   * [SPBEX TS](faq/telegram-resources/spbex-ts.md)
   * [John Pantini. Биржевой поэт](faq/telegram-resources/john-pantini-trash.md)
 * [Терминал Аврора](faq/aurora.md)
