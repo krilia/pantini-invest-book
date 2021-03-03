@@ -20,7 +20,7 @@
 
 Первый раз будет предложено изменить пароль - выполняем.
 
-## Получение доступа к Alor OpenAPI
+## Получение доступа к Alor OpenAPI <a id="alor-openapi-access"></a>
 
 {% embed url="https://www.alorbroker.ru/blog/alor-openapi---prostoy-dostup-v-finteh" %}
 
