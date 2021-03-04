@@ -33,7 +33,7 @@
 ## Болота <a id="marshes"></a>
 
 * [Автонажатие кнопок под сообщениями в TG-каналах](marshes/tg-button-autoclicking.md)
-* [✏️ Подключение к рыночным данным](marshes/market-data-connectors.md)
+* [Подключение к рыночным данным Alor](marshes/market-data-connectors.md)
 
 ## Пещеры <a id="caves"></a>
 
@@ -49,6 +49,7 @@
 
 ## Черновики <a id="drafts"></a>
 
-* [✏️ Система достижений](drafts/achievements/README.md)
+* [🖋 Redis, Visual Studio](drafts/redis-visual-studio.md)
+* [🖋 Система достижений](drafts/achievements/README.md)
   * [Черновик с достижениями](drafts/achievements/achievement-draft.md)
 
