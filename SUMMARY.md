@@ -37,7 +37,7 @@
 
 ## Пещеры <a id="caves"></a>
 
-* [✏️ Чтение брокерского отчёта](caves/reading-broker-rep.md)
+* [✏️ Чтение брокерского отчёта ТИ](caves/reading-broker-rep.md)
 * [✏️ Система достижений](caves/achievements/README.md)
   * [Черновик с достижениями](caves/achievements/achievement-draft.md)
 
