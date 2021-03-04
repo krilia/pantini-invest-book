@@ -38,8 +38,6 @@
 ## Пещеры <a id="caves"></a>
 
 * [✏️ Чтение брокерского отчёта ТИ](caves/reading-broker-rep.md)
-* [✏️ Система достижений](caves/achievements/README.md)
-  * [Черновик с достижениями](caves/achievements/achievement-draft.md)
 
 ## Джунгли <a id="jungle"></a>
 
@@ -48,4 +46,9 @@
 ## Подсобка <a id="back-room"></a>
 
 * [Решето Аткина](back-room/resheto-atkina.md)
+
+## Черновики <a id="drafts"></a>
+
+* [✏️ Система достижений](drafts/achievements/README.md)
+  * [Черновик с достижениями](drafts/achievements/achievement-draft.md)
 
