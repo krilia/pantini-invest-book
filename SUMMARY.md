@@ -33,15 +33,11 @@
 ## Болота <a id="marshes"></a>
 
 * [Автонажатие кнопок под сообщениями в TG-каналах](marshes/tg-button-autoclicking.md)
-* [Подключение к рыночным данным Alor](marshes/market-data-connectors.md)
+* [Подключение к рыночным данным Alor](marshes/alor-market-data.md)
 
 ## Пещеры <a id="caves"></a>
 
-* [✏️ Чтение брокерского отчёта ТИ](caves/reading-broker-rep.md)
-
 ## Джунгли <a id="jungle"></a>
-
-* [✏️ \[Материал в работе\]](jungle/material-v-rabote.md)
 
 ## Подсобка <a id="back-room"></a>
 
@@ -49,6 +45,7 @@
 
 ## Черновики <a id="drafts"></a>
 
+* [🖋 Чтение брокерского отчёта ТИ](drafts/reading-broker-rep.md)
 * [🖋 Redis, Visual Studio](drafts/redis-visual-studio.md)
 * [🖋 Система достижений](drafts/achievements/README.md)
   * [Черновик с достижениями](drafts/achievements/achievement-draft.md)
