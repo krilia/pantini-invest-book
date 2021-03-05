@@ -16,7 +16,25 @@
 
 Нажимаем кнопку "**Испытайте Workstation Player для Windows -&gt; Скачать**".
 
-## Для Mac \(Fusion Player\)
+#### Установка
+
+На момент написания раздела актуальная версия **16**.
+
+![](../.gitbook/assets/image%20%28123%29.png)
+
+![](../.gitbook/assets/image%20%28119%29.png)
+
+![](../.gitbook/assets/image%20%28121%29.png)
+
+![](../.gitbook/assets/image%20%28118%29.png)
+
+![](../.gitbook/assets/image%20%28122%29.png)
+
+![](../.gitbook/assets/image%20%28120%29.png)
+
+После завершения установки можно перезагрузиться.
+
+## ✒️ Для Mac \(Fusion Player\)
 
 Создайте учётную запись \(или авторизуйтесь, если есть аккаунт\) в VMWare по ссылке:
 
