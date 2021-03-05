@@ -39,8 +39,6 @@
 
 * [Установка VMWare Player](caves/ustanovka-vmware-player.md)
 
-## Джунгли <a id="jungle"></a>
-
 ## Подсобка <a id="back-room"></a>
 
 * [Решето Аткина](back-room/resheto-atkina.md)
