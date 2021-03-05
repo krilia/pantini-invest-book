@@ -37,7 +37,7 @@
 
 ## Пещеры <a id="caves"></a>
 
-* [Установка VMWare Player](caves/ustanovka-vmware-player.md)
+* [Установка VMWare Player](caves/vmware-player-installation.md)
 
 ## Подсобка <a id="back-room"></a>
 
