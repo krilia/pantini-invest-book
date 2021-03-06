@@ -180,7 +180,7 @@ Red Hat Enterprise Linux — дистрибутив Linux компании Red H
 
 #### Подключение к RHEL изнутри WebStorm
 
-Для этого открываем уже привычный терминал Cmder, вводим команду:
+Для этого открываем уже привычный терминал [Cmder](../wastelands/getting-started.md#cmder-installation), вводим команду:
 
 ```text
 $ ssh root@<IP-адрес машины>
