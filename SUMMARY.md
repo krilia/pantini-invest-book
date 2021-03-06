@@ -38,6 +38,7 @@
 ## Пещеры <a id="caves"></a>
 
 * [Установка VMWare Player](caves/vmware-player-installation.md)
+* [Установка RHEL](caves/ustanovka-rhel.md)
 
 ## Подсобка <a id="back-room"></a>
 
