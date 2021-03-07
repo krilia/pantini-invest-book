@@ -62,6 +62,10 @@ Red Hat Enterprise Linux — дистрибутив Linux компании Red H
 
 ![](../.gitbook/assets/image%20%28144%29.png)
 
+{% hint style="info" %}
+Путь к папке с проектом не должен содержать кириллические символы.
+{% endhint %}
+
 ![](../.gitbook/assets/image%20%28155%29.png)
 
 Итоговый результат:
