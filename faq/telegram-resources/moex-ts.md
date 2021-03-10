@@ -1,5 +1,5 @@
 ---
-description: moex_ts_bot
+description: '@moex_ts_bot'
 ---
 
 # MOEX TS
