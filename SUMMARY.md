@@ -17,6 +17,7 @@
   * [Warden](faq/telegram-resources/warden.md)
   * [SPBEX SEC](faq/telegram-resources/spbex-sec.md)
   * [SPBEX TS](faq/telegram-resources/spbex-ts.md)
+  * [MOEX TS](faq/telegram-resources/moex-ts.md)
   * [John Pantini. Биржевой поэт](faq/telegram-resources/john-pantini-trash.md)
 * [Терминал Аврора](faq/aurora.md)
 * [Учебное про биржу](faq/stock-exchange/README.md)
