@@ -206,7 +206,7 @@ if len(sys.argv) >= 2:
 В канале цены виджетов искусственно занижены для безопасности экспериментов
 {% endhint %}
 
-Для нажатия кнопок в PPF Staging код кликера следующий:
+Для нажатия кнопки **Отправить в Onaryx** в PPF Staging код кликера следующий:
 
 {% code title="python/ppf-staging-clicker.py" %}
 ```python
@@ -229,4 +229,6 @@ if len(sys.argv) >= 2:
   
 ```
 {% endcode %}
+
+
 
