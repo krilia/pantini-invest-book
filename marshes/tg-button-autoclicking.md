@@ -198,7 +198,13 @@ if len(sys.argv) >= 2:
 
 ## Автоматическое выставление заявок по виджетам PPF
 
-{% hint style="warning" %}
-Пример кода будет готов позднее
+{% hint style="info" %}
+Для тестирования виджетов присоединитесь к каналу **PPF Staging**:
+
+[https://t.me/joinchat/HZLgHnK8TQAyZWQy](https://t.me/joinchat/HZLgHnK8TQAyZWQy)
+
+В канале цены виджетов искусственно занижены для безопасности экспериментов
 {% endhint %}
+
+
 
