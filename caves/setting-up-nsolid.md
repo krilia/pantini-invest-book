@@ -144,7 +144,7 @@ Found. Redirecting to /welcome/
 
 ![](../.gitbook/assets/image%20%28180%29.png)
 
-Теперь создадим папку nsolid, а в ней файл test.mjs:
+Теперь создадим папку nsolid через WebStorm, а в ней файл test.mjs:
 
 {% code title="nsolid/test.mjs" %}
 ```javascript
