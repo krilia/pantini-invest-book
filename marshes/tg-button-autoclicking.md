@@ -288,7 +288,7 @@ $ npm i socket.io-client@2.3.0
 
 На вкладке **Punctuation** выставите использование одиночных кавычек для строковых литералов:
 
-![](../.gitbook/assets/image%20%28203%29.png)
+![](../.gitbook/assets/image%20%28201%29.png)
 
 На вкладке Wrapping and Braces установите настройки **Align** в разделе **Objects** и **Variable declarations**:
 
@@ -328,7 +328,7 @@ if (process.env.TG_ID && process.env.PANTINI_TOKEN) {
 
 ![&#x41D;&#x430;&#x436;&#x43C;&#x438;&#x442;&#x435; &#x43D;&#x430; + &#x432; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x438; &#x437;&#x43D;&#x430;&#x447;&#x43A;&#x43E;&#x432;, &#x432;&#x44B;&#x431;&#x435;&#x440;&#x438;&#x442;&#x435; Node.js](../.gitbook/assets/image%20%28196%29.png)
 
-![&#x41D;&#x430;&#x436;&#x43C;&#x438;&#x442;&#x435; &#x43D;&#x430; Environment variables \(&#x437;&#x43D;&#x430;&#x447;&#x43E;&#x43A; &#x432; &#x43F;&#x440;&#x430;&#x432;&#x43E;&#x439; &#x447;&#x430;&#x441;&#x442;&#x438; &#x43F;&#x43E;&#x43B;&#x44F; &#x432;&#x432;&#x43E;&#x434;&#x430;\)](../.gitbook/assets/image%20%28204%29.png)
+![&#x41D;&#x430;&#x436;&#x43C;&#x438;&#x442;&#x435; &#x43D;&#x430; Environment variables \(&#x437;&#x43D;&#x430;&#x447;&#x43E;&#x43A; &#x432; &#x43F;&#x440;&#x430;&#x432;&#x43E;&#x439; &#x447;&#x430;&#x441;&#x442;&#x438; &#x43F;&#x43E;&#x43B;&#x44F; &#x432;&#x432;&#x43E;&#x434;&#x430;\)](../.gitbook/assets/image%20%28205%29.png)
 
 ![](../.gitbook/assets/image%20%28188%29.png)
 
