@@ -284,15 +284,15 @@ $ npm i socket.io-client@2.3.0
 
 Зайдите в настройки WebStorm, поставьте отступы в 2 пробела на вкладке **Tabs and Indents**:
 
-![](../.gitbook/assets/image%20%28198%29.png)
+![](../.gitbook/assets/image%20%28199%29.png)
 
 На вкладке **Punctuation** выставите использование одиночных кавычек для строковых литералов:
 
-![](../.gitbook/assets/image%20%28202%29.png)
+![](../.gitbook/assets/image%20%28203%29.png)
 
 На вкладке Wrapping and Braces установите настройки **Align** в разделе **Objects** и **Variable declarations**:
 
-![](../.gitbook/assets/image%20%28194%29.png)
+![](../.gitbook/assets/image%20%28195%29.png)
 
 Теперь нажатие сочетания Ctrl+Alt+L будет автоматически форматировать код JavaScript в редакторе:
 
@@ -326,9 +326,9 @@ if (process.env.TG_ID && process.env.PANTINI_TOKEN) {
 
 ![&#x41D;&#x430;&#x436;&#x438;&#x43C;&#x430;&#x435;&#x43C; Add Configuration...](../.gitbook/assets/image%20%28189%29.png)
 
-![&#x41D;&#x430;&#x436;&#x43C;&#x438;&#x442;&#x435; &#x43D;&#x430; + &#x432; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x438; &#x437;&#x43D;&#x430;&#x447;&#x43A;&#x43E;&#x432;, &#x432;&#x44B;&#x431;&#x435;&#x440;&#x438;&#x442;&#x435; Node.js](../.gitbook/assets/image%20%28195%29.png)
+![&#x41D;&#x430;&#x436;&#x43C;&#x438;&#x442;&#x435; &#x43D;&#x430; + &#x432; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x438; &#x437;&#x43D;&#x430;&#x447;&#x43A;&#x43E;&#x432;, &#x432;&#x44B;&#x431;&#x435;&#x440;&#x438;&#x442;&#x435; Node.js](../.gitbook/assets/image%20%28196%29.png)
 
-![&#x41D;&#x430;&#x436;&#x43C;&#x438;&#x442;&#x435; &#x43D;&#x430; Environment variables \(&#x437;&#x43D;&#x430;&#x447;&#x43E;&#x43A; &#x432; &#x43F;&#x440;&#x430;&#x432;&#x43E;&#x439; &#x447;&#x430;&#x441;&#x442;&#x438; &#x43F;&#x43E;&#x43B;&#x44F; &#x432;&#x432;&#x43E;&#x434;&#x430;\)](../.gitbook/assets/image%20%28186%29.png)
+![&#x41D;&#x430;&#x436;&#x43C;&#x438;&#x442;&#x435; &#x43D;&#x430; Environment variables \(&#x437;&#x43D;&#x430;&#x447;&#x43E;&#x43A; &#x432; &#x43F;&#x440;&#x430;&#x432;&#x43E;&#x439; &#x447;&#x430;&#x441;&#x442;&#x438; &#x43F;&#x43E;&#x43B;&#x44F; &#x432;&#x432;&#x43E;&#x434;&#x430;\)](../.gitbook/assets/image%20%28204%29.png)
 
 ![](../.gitbook/assets/image%20%28188%29.png)
 
@@ -336,11 +336,11 @@ if (process.env.TG_ID && process.env.PANTINI_TOKEN) {
 
 Теперь запускайте новую конфигурацию, нажав на значок **Run**:
 
-![](../.gitbook/assets/image%20%28193%29.png)
+![](../.gitbook/assets/image%20%28194%29.png)
 
 Сейчас, если у вас запущен и python-кликер, вы будете получать данные о сигнале в node.js:
 
-![](../.gitbook/assets/image%20%28197%29.png)
+![](../.gitbook/assets/image%20%28198%29.png)
 
 **Описание полей:**
 
