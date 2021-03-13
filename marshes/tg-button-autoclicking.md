@@ -139,6 +139,7 @@ if len(sys.argv) >= 2:
 
 Мы будем [прослушивать ](https://docs.telethon.dev/en/latest/basic/updates.html)событие [NewMessage](https://docs.telethon.dev/en/latest/modules/events.html#telethon.events.newmessage.NewMessage), смотреть на количество кнопок, нажимать **вторую** кнопку в **первом** ряду \(она красного цвета\).
 
+{% code title="python/telegram-clicker.py" %}
 ```python
 import sys
 from telethon import TelegramClient, events
@@ -163,6 +164,7 @@ if len(sys.argv) >= 2:
   client.run_until_disconnected()
 
 ```
+{% endcode %}
 
 {% hint style="info" %}
 В методе **click** аргументы 0 и 1 означают координаты кнопки по горизонтали и вертикали соответственно. Нумерация начинается с нуля.
