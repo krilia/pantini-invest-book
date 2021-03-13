@@ -139,6 +139,8 @@ if len(sys.argv) >= 2:
 
 Мы будем [прослушивать ](https://docs.telethon.dev/en/latest/basic/updates.html)событие [NewMessage](https://docs.telethon.dev/en/latest/modules/events.html#telethon.events.newmessage.NewMessage), смотреть на количество кнопок, нажимать **вторую** кнопку в **первом** ряду \(она красного цвета\).
 
+Также мы будем хранить номер последнего принятого сообщения, чтобы не нажимать кнопку более одного раза \(при запущенном параллельно Telegram это может произойти\).
+
 {% code title="python/telegram-clicker.py" %}
 ```python
 import sys
