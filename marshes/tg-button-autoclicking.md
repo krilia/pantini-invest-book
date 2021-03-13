@@ -143,6 +143,8 @@ if len(sys.argv) >= 2:
 import sys
 from telethon import TelegramClient, events
 
+last_message_id = 0
+
 if len(sys.argv) >= 2:
   api_id = sys.argv[1]
   api_hash = sys.argv[2]
@@ -151,7 +153,10 @@ if len(sys.argv) >= 2:
 
   @client.on(events.NewMessage("https://t.me/pantini_fly"))
   async def new_message_event_handler(event):
-    if event.message.buttons is not None:
+    global last_message_id
+
+    if event.message.buttons is not None and event.message.id > last_message_id:
+      last_message_id = event.message.id
       await event.message.click(0, 1)
 
   client.start()
@@ -179,6 +184,8 @@ if len(sys.argv) >= 2:
 import sys
 from telethon import TelegramClient, events
 
+last_message_id = 0
+
 if len(sys.argv) >= 2:
   api_id = sys.argv[1]
   api_hash = sys.argv[2]
@@ -187,7 +194,10 @@ if len(sys.argv) >= 2:
 
   @client.on(events.NewMessage("https://t.me/ppf_official"))
   async def new_message_event_handler(event):
-    if event.message.buttons is not None:
+    global last_message_id
+
+    if event.message.buttons is not None and event.message.id > last_message_id:
+      last_message_id = event.message.id
       await event.message.click(0, 0)
 
   client.start()
@@ -214,6 +224,8 @@ if len(sys.argv) >= 2:
 import sys
 from telethon import TelegramClient, events
 
+last_message_id = 0
+
 if len(sys.argv) >= 2:
   api_id = sys.argv[1]
   api_hash = sys.argv[2]
@@ -222,7 +234,10 @@ if len(sys.argv) >= 2:
 
   @client.on(events.NewMessage("https://t.me/joinchat/HZLgHnK8TQAyZWQy"))
   async def new_message_event_handler(event):
-    if event.message.buttons is not None:
+    global last_message_id
+
+    if event.message.buttons is not None and event.message.id > last_message_id:
+      last_message_id = event.message.id
       await event.message.click(0, 0)
 
   client.start()
@@ -236,4 +251,102 @@ if len(sys.argv) >= 2:
 ```python
 $ python ./ppf-staging-clicker.py <api_id> <api_hash>
 ```
+
+### Подписка и обработка событий от Onaryx
+
+{% hint style="info" %}
+Onaryx - защищенный через ключ и Telegram-id WebSocket-канал, который отслеживает нажатия кнопок в виджетах моей экосистемы.
+{% endhint %}
+
+Для начала приготовьте ваш ключ и Telegram-id. Их можно получить у [@pantini\_warden\_bot](https://t.me/pantini_warden_bot) в Telegram. Отправьте боту команду **/token**, если ранее этого не делали.
+
+{% hint style="danger" %}
+На этом этапе посетите раздел про [установку N\|Solid](../caves/setting-up-nsolid.md), где посмотрите, как в проект добавить файл **package.json**. Сейчас он нам понадобится!
+{% endhint %}
+
+Откройте cmder внутри WebStorm и введите команду:
+
+```python
+$ npm i socket.io-client@2.3.0
+```
+
+Эта команда установит клиентскую библиотеку [socket.io](https://socket.io/), которая понадобится для подключения к Onaryx. Старая версия библиотеки используется по причине применения таковой в веб-терминале Тинькофф Инвестиции \(чтобы не повредить работу расширения\).
+
+{% hint style="info" %}
+Если у вас появился файл **package-lock.json**, выделенный коричневым цветом \(вне git\), то добавьте его через Ctrl+Alt+A \(предварительно выделив\). Цвет должен измениться на зелёный.
+{% endhint %}
+
+Также появится папка **node\_modules**, но она будет проигнорирована git. Ничего дополнительно делать не нужно.
+
+Зайдите в настройки WebStorm, поставьте отступы в 2 пробела на вкладке **Tabs and Indents**:
+
+![](../.gitbook/assets/image%20%28198%29.png)
+
+На вкладке **Punctuation** выставите использование одиночных кавычек для строковых литералов:
+
+![](../.gitbook/assets/image%20%28202%29.png)
+
+На вкладке Wrapping and Braces установите настройки **Align** в разделе **Objects** и **Variable declarations**:
+
+![](../.gitbook/assets/image%20%28194%29.png)
+
+Теперь нажатие сочетания Ctrl+Alt+L будет автоматически форматировать код JavaScript в редакторе:
+
+![&#x41C;&#x435;&#x43D;&#x44E; Code &#x432; WebStorm](../.gitbook/assets/image%20%28191%29.png)
+
+Создайте файл **ppf-onaryx-clicker.js** с содержимым:
+
+{% code title="ppf-onaryx-clicker.js" %}
+```javascript
+const io = require('socket.io-client');
+
+if (process.env.TG_ID && process.env.PANTINI_TOKEN) {
+  const client = io('wss://onaryx.ru', {
+    query: {
+      id:    process.env.TG_ID,
+      token: process.env.PANTINI_TOKEN
+    }
+  });
+
+  client.on('ticker', data => {
+    if (data.m === 'ppf') {
+      console.log(data);
+    }
+  });
+}
+
+```
+{% endcode %}
+
+Сейчас мы будет запускать скрипт через терминал WebStorm без Cmder. Для этого создадим новую конфигурацию:
+
+![&#x41D;&#x430;&#x436;&#x438;&#x43C;&#x430;&#x435;&#x43C; Add Configuration...](../.gitbook/assets/image%20%28189%29.png)
+
+![&#x41D;&#x430;&#x436;&#x43C;&#x438;&#x442;&#x435; &#x43D;&#x430; + &#x432; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x438; &#x437;&#x43D;&#x430;&#x447;&#x43A;&#x43E;&#x432;, &#x432;&#x44B;&#x431;&#x435;&#x440;&#x438;&#x442;&#x435; Node.js](../.gitbook/assets/image%20%28195%29.png)
+
+![&#x41D;&#x430;&#x436;&#x43C;&#x438;&#x442;&#x435; &#x43D;&#x430; Environment variables \(&#x437;&#x43D;&#x430;&#x447;&#x43E;&#x43A; &#x432; &#x43F;&#x440;&#x430;&#x432;&#x43E;&#x439; &#x447;&#x430;&#x441;&#x442;&#x438; &#x43F;&#x43E;&#x43B;&#x44F; &#x432;&#x432;&#x43E;&#x434;&#x430;\)](../.gitbook/assets/image%20%28186%29.png)
+
+![](../.gitbook/assets/image%20%28188%29.png)
+
+Добавьте две переменные окружения, нажав на +, вводя свои реальные данные, полученные ранее.
+
+Теперь запускайте новую конфигурацию, нажав значок пуска:
+
+![](../.gitbook/assets/image%20%28193%29.png)
+
+Сейчас, если у вас запущен и python-кликер, вы будете получать данные о сигнале в node.js:
+
+![](../.gitbook/assets/image%20%28197%29.png)
+
+**Описание полей:**
+
+**m** означает **message**, содержит тип сообщения
+
+**p** означает цену
+
+**v** - объём
+
+**t** - тикер
+
+**d** - направление. **b** значит покупка, **s** - продажа
 
