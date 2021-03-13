@@ -42,6 +42,10 @@
 * [Установка RHEL](caves/rhel-setup.md)
 * [Установка N\|Solid](caves/setting-up-nsolid.md)
 
+## Джунгли <a id="jungle"></a>
+
+* [🖍 \[Материал в разработке\]](jungle/material-v-razrabotke.md)
+
 ## Подсобка <a id="back-room"></a>
 
 * [Решето Аткина](back-room/resheto-atkina.md)
