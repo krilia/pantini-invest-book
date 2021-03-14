@@ -22,6 +22,10 @@ N\|Solid понадобится нам для различных тестов и
 
 ![](../.gitbook/assets/image%20%28184%29.png)
 
+{% hint style="danger" %}
+Если ключ не приходит на почту, попробуйте [зарегистрироваться ](https://accounts.nodesource.com/sign-in)через VPN на другой e-mail.
+{% endhint %}
+
 ##  Установка в RHEL
 
 Авторизуйтесь в систему через терминал, как делали [ранее](rhel-setup.md#rhel-webstorm-connection):
