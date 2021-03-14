@@ -22,10 +22,6 @@ N\|Solid понадобится нам для различных тестов и
 
 ![](../.gitbook/assets/image%20%28184%29.png)
 
-{% hint style="warning" %}
-Если ключ не приходит, попробуйте сделать учётную запись через почту Google \([gmail.com](https://gmail.com)\).
-{% endhint %}
-
 ##  Установка в RHEL
 
 Авторизуйтесь в систему через терминал, как делали [ранее](rhel-setup.md#rhel-webstorm-connection):
