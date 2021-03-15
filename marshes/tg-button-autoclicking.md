@@ -197,6 +197,7 @@ $ python ./pantini-fly.py <api_id> <api_hash>
 
 В коде нужно лишь поменять ссылку на канал, а также указать другие координаты кнопки при необходимости. Следующий код выполнит нажатие на кнопку под виджетом:
 
+{% code title="python/ppf-clicker.py" %}
 ```python
 import sys
 from telethon import TelegramClient, events
@@ -221,6 +222,7 @@ if len(sys.argv) >= 2:
   client.run_until_disconnected()
 
 ```
+{% endcode %}
 
 Информация о виджетах и кнопках **PPF** будет опубликована в [соответствующем разделе](../faq/telegram-resources/primitive-future.md).
 
