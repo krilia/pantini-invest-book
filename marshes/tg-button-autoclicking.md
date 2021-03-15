@@ -366,7 +366,7 @@ if (process.env.TG_ID && process.env.PANTINI_TOKEN) {
 
 Символ \ означает, что команда переносится на следующую строку.
 
-### Выставление заявок через торговый токен ТИ
+### Выставление заявок через торговый токен ТИ <a id="placing-orders-via-tinkoff-open-api"></a>
 
 {% hint style="info" %}
 Торговый токен для Tinkoff Open API можно получить по ссылке:
