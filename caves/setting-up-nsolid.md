@@ -146,9 +146,9 @@ Found. Redirecting to /welcome/
 ```
 {% endcode %}
 
-![](../.gitbook/assets/image%20%28180%29.png)
+![](../.gitbook/assets/image%20%28211%29.png)
 
-Теперь создадим папку nsolid через WebStorm, а в ней файл test.mjs:
+Теперь создадим папку **nsolid** через WebStorm \(контекстное меню New ➡️ Folder\), а в ней файл test.mjs:
 
 {% code title="nsolid/test.mjs" %}
 ```javascript
@@ -190,7 +190,7 @@ server.listen(port, hostname, () => {
 NSOLID\_COMMAND нужна для связывания запущенного процесса с веб-интерфейсом
 {% endhint %}
 
-![](../.gitbook/assets/image%20%28181%29.png)
+![](../.gitbook/assets/image%20%28209%29.png)
 
 Если всё сделано верно, процесс появится в консоли:
 
