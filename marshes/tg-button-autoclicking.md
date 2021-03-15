@@ -354,3 +354,161 @@ if (process.env.TG_ID && process.env.PANTINI_TOKEN) {
 
 **d** - направление. **b** значит покупка, **s** - продажа
 
+### Запуск в RHEL через [N\|Solid](../caves/setting-up-nsolid.md)
+
+Скрипт **ppf-onaryx-clicker.mjs** можно запустить и изнутри виртуальной машины. Для этого нужно выполнить следующие команды:
+
+```javascript
+# cd /mnt/hgfs/jpx/
+# TG_ID=12345678 PANTINI_TOKEN=JP-XXXXXX NSOLID_APPNAME=ppf-onaryx-clicker \ 
+    NSOLID_COMMAND=localhost:9001 nsolid ppf-onaryx-clicker.mjs
+```
+
+Символ \ означает, что команда переносится на следующую строку.
+
+### Выставление заявок через торговый токен ТИ
+
+{% hint style="info" %}
+Торговый токен для Tinkoff Open API можно получить по ссылке:
+
+[https://www.tinkoff.ru/invest/settings/](https://www.tinkoff.ru/invest/settings/)
+
+Его нужно хранить в секрете, не сохранять в репо.
+{% endhint %}
+
+Добавим опции:
+
+* **allowSell** - если равен **true**, то скрипт будет следовать и за продажами. По умолчанию скрипт следует только за покупками.
+* **whiteList** - массив тикеров, по которым будет проходить автоследование
+* **blackList** - массив тикеров, по которым не будет проходить автоследование
+
+Инструмент будет поставлен на автоследование, если он находится в белом списке и не находится в чёрном.
+
+{% code title="ppf-onaryx-clicker.mjs" %}
+```javascript
+import {io} from 'socket.io-client';
+import https from 'https';
+
+const options = {
+  allowSell: false,
+  whiteList: ['GTHX', 'SPCE'],
+  blackList: ['AMZN', 'TSLA']
+};
+
+const fetchTIOpenAPI = async ({path, body = '', method = 'GET'}) => {
+  return new Promise(async (resolve, reject) => {
+    const req = https.request({
+      hostname: 'api-invest.tinkoff.ru',
+      port:     443,
+      path,
+      method,
+      headers:  {
+        'Content-Type':   'application/json',
+        'Content-Length': body.length,
+        Authorization:    `Bearer ${process.env.TI_TOKEN}`
+      }
+    }, async res => {
+      try {
+        let responseText = '';
+
+        for await (const chunk of res) {
+          responseText += chunk;
+        }
+
+        res.on('error', (error) => {
+          reject(error);
+        });
+
+        resolve(JSON.parse(responseText));
+      } catch (error) {
+        reject(error);
+      }
+    });
+
+    if (body)
+      req.write(body);
+
+    req.end();
+  });
+};
+
+if (process.env.TG_ID && process.env.PANTINI_TOKEN && process.env.TI_TOKEN) {
+  try {
+    const stocks = (await fetchTIOpenAPI({path: '/openapi/market/stocks'}))?.payload?.instruments;
+
+    if (stocks) {
+      const client = io('wss://onaryx.ru', {
+        query: {
+          id:    process.env.TG_ID,
+          token: process.env.PANTINI_TOKEN
+        }
+      });
+
+      client.on('error', (error) => {
+        console.log(error);
+      });
+
+      client.on('ticker', async (data) => {
+        if (data.m === 'ppf') {
+          const {t, p, d} = data;
+
+          if (options.whiteList.indexOf(t) < 0)
+            return;
+
+          if (options.blackList.indexOf(t) > -1)
+            return;
+
+          if (d === 'b' || options.allowSell) {
+            const instrument = stocks.find(s => s.ticker === t);
+
+            if (instrument?.figi) {
+              const precision = instrument.minPriceIncrement.toString().split('.')[1]?.length;
+
+              const response = await fetchTIOpenAPI({
+                path:   `/openapi/orders/limit-order?figi=${instrument.figi}`,
+                method: 'POST',
+                body:   JSON.stringify({
+                  lots:      1,
+                  operation: d === 'b' ? 'Buy' : 'Sell',
+                  price:     parseFloat((Math.round(parseFloat(p) / instrument.minPriceIncrement) *
+                    instrument.minPriceIncrement).toFixed(precision))
+                })
+              });
+
+              if (response?.status === 'Ok') {
+                console.log(`${d === 'b' ? 'Buy' : 'Sell'} LMT ${t}@${p}`.toUpperCase());
+              } else
+                console.error(response);
+            }
+          }
+        }
+      });
+    }
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+```
+{% endcode %}
+
+{% hint style="danger" %}
+**Внимание**! Вы используете предложенный пример на свой страх и риск. Не забудьте сформировать белый \(строка 6\) и чёрный \(строка 7\) списки.
+{% endhint %}
+
+В коде используется [Оператор опциональной последовательности](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Optional_chaining). Учитывается и такой параметр, как минимальный шаг цены. Например, при приходе сигнала по тикеру $OBUV с ценою в 26,58 рублей будет выставлена заявка на 26,6 рублей. В противном случае была бы ошибка API.
+
+Не забудьте добавить в конфигурацию новую переменную окружения **TI\_TOKEN**, куда поместите торговый токен Tinkoff Open API. Если будете запускать изнутри **RHEL**, то пример команды:
+
+```javascript
+# cd /mnt/hgfs/jpx/
+# TG_ID=12345678 PANTINI_TOKEN=JP-XXXXXX NSOLID_APPNAME=ppf-onaryx-clicker \ 
+    NSOLID_COMMAND=localhost:9001 TI_TOKEN='t.xxx' nsolid ppf-onaryx-clicker.mjs
+```
+
+### Просмотр истории изменений файлов
+
+По ходу разработки мы будем дополнять разные файлы по нескольку раз, наращивая функциональность. Несмотря на то, что почти все этапы написания файлов задокументированы в книге, вы всегда можете вернуться к старым версиям через git. Для этого прямо в WebStorm есть вкладка Git, где все сохранения и изменения перечислены в хронологическом порядке. В правой части будет список файлов, затронутых выбранным изменением - там можно смотреть, что было ранее:
+
+![](../.gitbook/assets/image%20%28209%29.png)
+

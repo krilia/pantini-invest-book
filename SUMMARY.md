@@ -41,6 +41,7 @@
 * [Установка VMWare Player](caves/vmware-player-installation.md)
 * [Установка RHEL](caves/rhel-setup.md)
 * [Установка N\|Solid](caves/setting-up-nsolid.md)
+* [🖍 Знакомство с nginx](caves/nginx-crash-course.md)
 
 ## Джунгли <a id="jungle"></a>
 
