@@ -93,7 +93,7 @@ $ pip3 install -U telethon --user
 ## Написание кода
 
 {% hint style="info" %}
-В примере для данного раздела будет показано, как нажимать цветные кнопки автоматически для сообщений из канала [Pantini Fly](../faq/telegram-resources/fly.md)
+В примере для данного раздела будет показано, как нажимать цветные кнопки автоматически для сообщений из канала [Pantini Fly](../faq/telegram-resources/fly.md).
 {% endhint %}
 
 На этом этапе у вас должна быть настроена рабочая среда. Код будет опубликован в репозитории [jpx](https://github.com/johnpantini/jpx). Если вы работаете [по 3-му варианту](../wastelands/creating-a-repo.md#mode-3-local-clone), просто обновите проект через Ctrl+T и примите изменения в ветке **johnpantini**.
@@ -104,7 +104,7 @@ $ pip3 install -U telethon --user
 
 Запуск скрипта осуществляется командой:
 
-```bash
+```javascript
 # Команду нужно выполнять, находясь в подпапке python
 # cd python\
 
@@ -113,7 +113,7 @@ $ python ./telegram-clicker.py
 
 Telegram-ключи для подключения, полученные в предыдущем разделе, будем передавать через аргументы командной строки в следующем виде:
 
-```bash
+```javascript
 # Вставьте свои реальные данные, полученные ранее, перед запуском
 # Символы < и > обозначают заполнитель, их вводить не нужно
 # Пример:
@@ -142,7 +142,7 @@ if len(sys.argv) >= 2:
 Теперь, когда у нас есть способ передать программе конфиденциальные данные \(которые не следует хранить в репозитории\), можно написать код, реагирующий на новые сообщения в канале [Pantini Fly](../faq/telegram-resources/fly.md).
 
 {% hint style="danger" %}
-Имя файла сменяю на **pantini-fly-clicker.py**
+Имя файла заменяю на **pantini-fly-clicker.py**
 {% endhint %}
 
 Мы будем [прослушивать ](https://docs.telethon.dev/en/latest/basic/updates.html)событие [NewMessage](https://docs.telethon.dev/en/latest/modules/events.html#telethon.events.newmessage.NewMessage), смотреть на количество кнопок, нажимать **вторую** кнопку в **первом** ряду \(она красного цвета\).
@@ -190,7 +190,7 @@ $ python ./pantini-fly.py <api_id> <api_hash>
 {% endhint %}
 
 {% hint style="info" %}
-Запущенный скрипт будет работать без дополнительных вмешательств, пока не будет остановлен внешним воздействием. Чтобы прервать работу запущенного скрипта вручную, нажмите **Ctrl+C**
+Запущенный скрипт будет работать без дополнительных вмешательств, пока не будет остановлен внешним воздействием. Чтобы прервать работу запущенного скрипта вручную, нажмите **Ctrl+C**.
 {% endhint %}
 
 {% hint style="danger" %}
@@ -237,7 +237,7 @@ if len(sys.argv) >= 2:
 
 [https://t.me/joinchat/HZLgHnK8TQAyZWQy](https://t.me/joinchat/HZLgHnK8TQAyZWQy)
 
-В канале цены виджетов искусственно занижены для безопасности экспериментов
+В канале цены виджетов искусственно занижены для безопасности экспериментов.
 {% endhint %}
 
 Для нажатия кнопки **Отправить в Onaryx** в [PPF Staging ](https://t.me/joinchat/HZLgHnK8TQAyZWQy)код кликера следующий:
@@ -277,7 +277,7 @@ if len(sys.argv) >= 2:
 $ python ./ppf-staging-clicker.py <api_id> <api_hash>
 ```
 
-### Подписка и обработка событий от Onaryx
+### Подписка и обработка событий от Onaryx через Python-кликер
 
 {% hint style="info" %}
 Onaryx - защищенный через ключ и Telegram-id WebSocket-канал, который отслеживает нажатия кнопок в виджетах моей экосистемы.
@@ -319,9 +319,9 @@ $ npm i socket.io-client@latest
 
 ![&#x41C;&#x435;&#x43D;&#x44E; Code &#x432; WebStorm](../.gitbook/assets/image%20%28191%29.png)
 
-Создайте файл **ppf-onaryx-clicker.mjs** с содержимым:
+Создайте файл **onaryx.mjs** с содержимым:
 
-{% code title="ppf-onaryx-clicker.mjs" %}
+{% code title="onaryx.mjs" %}
 ```javascript
 import {io} from 'socket.io-client';
 
@@ -334,7 +334,7 @@ if (process.env.TG_ID && process.env.PANTINI_TOKEN) {
   });
 
   client.on('ticker', data => {
-    if (data.m === 'ppf') {
+    if (data.m === 'ppf-staging-tg') {
       console.log(data);
     }
   });
@@ -349,7 +349,7 @@ if (process.env.TG_ID && process.env.PANTINI_TOKEN) {
 
 ![&#x41D;&#x430;&#x436;&#x43C;&#x438;&#x442;&#x435; &#x43D;&#x430; + &#x432; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x438; &#x437;&#x43D;&#x430;&#x447;&#x43A;&#x43E;&#x432;, &#x432;&#x44B;&#x431;&#x435;&#x440;&#x438;&#x442;&#x435; Node.js](../.gitbook/assets/image%20%28198%29.png)
 
-![&#x41D;&#x430;&#x436;&#x43C;&#x438;&#x442;&#x435; &#x43D;&#x430; Environment variables \(&#x437;&#x43D;&#x430;&#x447;&#x43E;&#x43A; &#x432; &#x43F;&#x440;&#x430;&#x432;&#x43E;&#x439; &#x447;&#x430;&#x441;&#x442;&#x438; &#x43F;&#x43E;&#x43B;&#x44F; &#x432;&#x432;&#x43E;&#x434;&#x430;\)](../.gitbook/assets/image%20%28194%29.png)
+![](../.gitbook/assets/image%20%28214%29.png)
 
 ![&#x42D;&#x442;&#x438; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x435; &#x43C;&#x44B; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x430;&#x43B;&#x438; &#x443; @pantini\_warden\_bot](../.gitbook/assets/image%20%28188%29.png)
 
@@ -357,15 +357,15 @@ if (process.env.TG_ID && process.env.PANTINI_TOKEN) {
 
 Теперь запускайте новую конфигурацию, нажав на значок **Run**:
 
-![](../.gitbook/assets/image%20%28192%29.png)
+![](../.gitbook/assets/image%20%28215%29.png)
 
 Сейчас, если у вас запущен и python-кликер, вы будете получать данные о сигнале в node.js:
 
-![](../.gitbook/assets/image%20%28196%29.png)
+![](../.gitbook/assets/image%20%28216%29.png)
 
 **Описание полей:**
 
-**m** означает **message**, содержит тип сообщения
+**m** означает **message**, содержит тип сообщения. Для сообщений, принятых от нажатий кнопок под сообщениями в Telegram, добавляется постфикс `-tg`.
 
 **p** означает цену
 
@@ -377,17 +377,21 @@ if (process.env.TG_ID && process.env.PANTINI_TOKEN) {
 
 ### Запуск в RHEL через [N\|Solid](../caves/setting-up-nsolid.md)
 
-Скрипт **ppf-onaryx-clicker.mjs** можно запустить и изнутри виртуальной машины. Для этого нужно выполнить следующие команды:
+Скрипт **onaryx.mjs** можно запустить и изнутри виртуальной машины. Для этого нужно выполнить следующие команды:
 
 ```javascript
 # cd /mnt/hgfs/jpx/
-# TG_ID=12345678 PANTINI_TOKEN=JP-XXXXXX NSOLID_APPNAME=ppf-onaryx-clicker \ 
-    NSOLID_COMMAND=localhost:9001 nsolid ppf-onaryx-clicker.mjs
+# TG_ID=12345678 PANTINI_TOKEN=JP-XXXXXX NSOLID_APPNAME=onaryx \ 
+    NSOLID_COMMAND=localhost:9001 nsolid onaryx.mjs
 ```
 
 Символ \ означает, что команда переносится на следующую строку.
 
-### Выставление заявок через торговый токен ТИ <a id="placing-orders-via-tinkoff-open-api"></a>
+### Подключение к Onaryx без Python-кликера и выставление заявок через торговый токен ТИ <a id="placing-orders-via-tinkoff-open-api"></a>
+
+{% hint style="danger" %}
+Onaryx передаёт сообщение подключенным по WebSocket клиентам в том числе и напрямую, минуя Telegram. При использовании этого способа приёма данных убедитесь, что все Python-кликеры **отключены**.
+{% endhint %}
 
 {% hint style="info" %}
 Торговый токен для Tinkoff Open API можно получить по ссылке:
@@ -405,7 +409,11 @@ if (process.env.TG_ID && process.env.PANTINI_TOKEN) {
 
 Инструмент будет поставлен на автоследование, если он находится в белом списке и не находится в чёрном.
 
-{% code title="ppf-onaryx-clicker.mjs" %}
+{% hint style="info" %}
+Onaryx выставляет объём \(поле `v`\) по умолчанию в 1 лот.
+{% endhint %}
+
+{% code title="onaryx.mjs" %}
 ```javascript
 import {io} from 'socket.io-client';
 import https from 'https';
@@ -436,7 +444,7 @@ const fetchTIOpenAPI = async ({path, body = '', method = 'GET'}) => {
           responseText += chunk;
         }
 
-        resolve(JSON.parse(responseText));
+        resolve(JSON.parse(responseText || 'null'));
       } catch (error) {
         reject(error);
       }
@@ -466,8 +474,8 @@ if (process.env.TG_ID && process.env.PANTINI_TOKEN && process.env.TI_TOKEN) {
       });
 
       client.on('ticker', async (data) => {
-        if (data.m === 'ppf') {
-          const {t, p, d} = data;
+        if (data.m.startsWith('ppf') && !data.m.endsWith('-tg')) {
+          const {t, p, d, v} = data;
 
           if (options.whiteList.indexOf(t) < 0)
             return;
@@ -485,7 +493,7 @@ if (process.env.TG_ID && process.env.PANTINI_TOKEN && process.env.TI_TOKEN) {
                 path:   `/openapi/orders/limit-order?figi=${instrument.figi}`,
                 method: 'POST',
                 body:   JSON.stringify({
-                  lots:      1,
+                  lots:      +v,
                   operation: d === 'b' ? 'Buy' : 'Sell',
                   price:     parseFloat((Math.round(parseFloat(p) / instrument.minPriceIncrement) *
                     instrument.minPriceIncrement).toFixed(precision))
@@ -519,8 +527,8 @@ if (process.env.TG_ID && process.env.PANTINI_TOKEN && process.env.TI_TOKEN) {
 
 ```javascript
 # cd /mnt/hgfs/jpx/
-# TG_ID=12345678 PANTINI_TOKEN=JP-XXXXXX NSOLID_APPNAME=ppf-onaryx-clicker \ 
-    NSOLID_COMMAND=localhost:9001 TI_TOKEN='t.xxx' nsolid ppf-onaryx-clicker.mjs
+# TG_ID=12345678 PANTINI_TOKEN=JP-XXXXXX NSOLID_APPNAME=onaryx \ 
+    NSOLID_COMMAND=localhost:9001 TI_TOKEN='t.xxx' nsolid onaryx.mjs
 ```
 
 ### Просмотр истории изменений файлов

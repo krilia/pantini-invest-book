@@ -148,7 +148,7 @@ Found. Redirecting to /welcome/
 
 ![](../.gitbook/assets/image%20%28211%29.png)
 
-Теперь создадим папку **nsolid** через WebStorm \(контекстное меню New ➡️ Folder\), а в ней файл test.mjs:
+Теперь создадим папку **nsolid** через WebStorm \(контекстное меню New ➡️ Folder\), а в ней файл **test.mjs**:
 
 {% code title="nsolid/test.mjs" %}
 ```javascript
@@ -177,7 +177,7 @@ server.listen(port, hostname, () => {
 # firewall-cmd --reload
 ```
 
-Переместимся в папку **nsolid** в RHEL и запустим веб-сервер командами:
+Переместимся в папку **nsolid** в **RHEL** и запустим веб-сервер командами:
 
 ```javascript
 # cd /mnt/hgfs/jpx/nsolid/
@@ -185,9 +185,9 @@ server.listen(port, hostname, () => {
 ```
 
 {% hint style="info" %}
-Переменная окружения NSOLID\_APPNAME определяет то, как наш процесс будет называться в веб-интерфейсе.
+Переменная окружения **NSOLID\_APPNAME** определяет то, как наш процесс будет называться в веб-интерфейсе.
 
-NSOLID\_COMMAND нужна для связывания запущенного процесса с веб-интерфейсом
+**NSOLID\_COMMAND** нужна для связывания запущенного процесса с веб-интерфейсом
 {% endhint %}
 
 ![](../.gitbook/assets/image%20%28209%29.png)
