@@ -406,6 +406,13 @@ Onaryx передаёт сообщение подключенным по WebSock
 * **allowSell** - если равен **true**, то скрипт будет следовать и за продажами. По умолчанию скрипт следует только за покупками.
 * **whiteList** - массив тикеров, по которым будет проходить автоследование
 * **blackList** - массив тикеров, по которым не будет проходить автоследование
+* **channels** - каналы подписки
+
+{% hint style="warning" %}
+Тестовые каналы имеют постфикс `-staging`
+
+Каналы передачи через кнопки под сообщениями в Telegram дополнительно имеют постфикс `-tg`
+{% endhint %}
 
 Инструмент будет поставлен на автоследование, если он находится в белом списке и не находится в чёрном.
 
@@ -419,6 +426,7 @@ import {io} from 'socket.io-client';
 import https from 'https';
 
 const options = {
+  channels:  ['ppf-staging'],
   allowSell: false,
   whiteList: ['GTHX', 'SPCE'],
   blackList: ['AMZN', 'TSLA']
@@ -474,7 +482,7 @@ if (process.env.TG_ID && process.env.PANTINI_TOKEN && process.env.TI_TOKEN) {
       });
 
       client.on('ticker', async (data) => {
-        if (data.m.startsWith('ppf') && !data.m.endsWith('-tg')) {
+        if (options.channels.indexOf(data.m) > -1) {
           const {t, p, d, v} = data;
 
           if (options.whiteList.indexOf(t) < 0)
@@ -513,6 +521,7 @@ if (process.env.TG_ID && process.env.PANTINI_TOKEN && process.env.TI_TOKEN) {
     console.error(error);
   }
 }
+
 
 ```
 {% endcode %}
