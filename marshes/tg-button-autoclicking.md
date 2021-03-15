@@ -425,11 +425,11 @@ Onaryx выставляет объём \(поле `v`\) по умолчанию 
 import {io} from 'socket.io-client';
 import https from 'https';
 
-const options = {
-  channels:  ['ppf-staging'],
+const options = {  
   allowSell: false,
   whiteList: ['GTHX', 'SPCE'],
-  blackList: ['AMZN', 'TSLA']
+  blackList: ['AMZN', 'TSLA'],
+  channels:  ['ppf-staging'],
 };
 
 const fetchTIOpenAPI = async ({path, body = '', method = 'GET'}) => {
