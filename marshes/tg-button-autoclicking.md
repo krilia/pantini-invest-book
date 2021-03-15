@@ -137,11 +137,15 @@ if len(sys.argv) >= 2:
 
 Теперь, когда у нас есть способ передать программе конфиденциальные данные \(которые не следует хранить в репозитории\), можно написать код, реагирующий на новые сообщения в канале [Pantini Fly](../faq/telegram-resources/fly.md).
 
+{% hint style="danger" %}
+Имя файла сменяю на **pantini-fly-clicker.py**
+{% endhint %}
+
 Мы будем [прослушивать ](https://docs.telethon.dev/en/latest/basic/updates.html)событие [NewMessage](https://docs.telethon.dev/en/latest/modules/events.html#telethon.events.newmessage.NewMessage), смотреть на количество кнопок, нажимать **вторую** кнопку в **первом** ряду \(она красного цвета\).
 
 Также мы будем хранить номер последнего принятого сообщения, чтобы не нажимать кнопку более одного раза \(при запущенном параллельно Telegram это может произойти\).
 
-{% code title="python/telegram-clicker.py" %}
+{% code title="python/pantini-fly-clicker.py" %}
 ```python
 import sys
 from telethon import TelegramClient, events
