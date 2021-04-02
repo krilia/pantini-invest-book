@@ -234,7 +234,7 @@ $ ssh root@<IP-адрес машины>
 Для подключения общей папки без правки /etc/fstab можно воспользоваться командой \(при перезагрузке изменения потеряются\):
 
 ```bash
-# vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other
+# vmhgfs-fuse .host:/ /mnt/hgfs -o subtype=vmhgfs-fuse,allow_other
 ```
 {% endhint %}
 
