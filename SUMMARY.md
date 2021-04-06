@@ -47,9 +47,10 @@
 
 * [🖍 \[Материал в разработке\]](jungle/material-v-razrabotke.md)
 
-## Подсобка <a id="back-room"></a>
+## Обрезки <a id="bits"></a>
 
-* [Решето Аткина](back-room/resheto-atkina.md)
+* [Решето Аткина](bits/resheto-atkina.md)
+* [🖍 Эллиптические кривые](bits/elliptic-curves.md)
 
 ## Черновики <a id="drafts"></a>
 
