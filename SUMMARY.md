@@ -19,6 +19,7 @@
   * [SPBEX TS](faq/telegram-resources/spbex-ts.md)
   * [MOEX TS](faq/telegram-resources/moex-ts.md)
   * [John Pantini. Биржевой поэт](faq/telegram-resources/john-pantini-trash.md)
+  * [Арбитражные сканеры](faq/telegram-resources/arbitrazhnye-skanery.md)
 * [Терминал Аврора](faq/aurora.md)
 * [Учебное про биржу](faq/stock-exchange/README.md)
   * [Правило SEC 611 и ISO-ордер](faq/stock-exchange/sec-611-iso-order.md)
