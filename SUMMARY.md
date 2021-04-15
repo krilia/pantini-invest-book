@@ -44,7 +44,7 @@
 
 ## Джунгли <a id="jungle"></a>
 
-* [🖍 \[Раздел в разработке\]](jungle/material-v-razrabotke.md)
+* [Подготовка к разработке терминала](jungle/material-v-razrabotke.md)
 
 ## Обрезки <a id="bits"></a>
 
