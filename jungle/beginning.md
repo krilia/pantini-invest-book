@@ -63,9 +63,9 @@ http {
 
 В разделе **Before launch** выполним запуск команд по созданию поддиректорий **logs** и **temp**:
 
-![&#x412;&#x44B;&#x431;&#x438;&#x440;&#x430;&#x435;&#x43C; Run External tool &#x438; &#x43D;&#x430;&#x436;&#x438;&#x43C;&#x430;&#x435;&#x43C; &#x43D;&#x430; +](../.gitbook/assets/image%20%28233%29.png)
+![&#x412;&#x44B;&#x431;&#x438;&#x440;&#x430;&#x435;&#x43C; Run External tool &#x438; &#x43D;&#x430;&#x436;&#x438;&#x43C;&#x430;&#x435;&#x43C; &#x43D;&#x430; +](../.gitbook/assets/image%20%28234%29.png)
 
-![](../.gitbook/assets/image%20%28224%29.png)
+![](../.gitbook/assets/image%20%28231%29.png)
 
 Имя произвольное, например, `mkdir temp&logs`
 
@@ -77,13 +77,13 @@ http {
 If(!(Test-Path logs)){New-Item -ItemType Directory -Force -Path logs};If(!(Test-Path temp)){New-Item -ItemType Directory -Force -Path temp}
 ```
 
-Рабочая директория: `$FileParentDir$`
+Рабочая директория: `$ContentRoot$\terminal\nginx-win`
 
 Флаг **Open console for tool output** можно снять.
 
 Теперь можно запускать конфигурацию:
 
-![nginx &#x437;&#x430;&#x43F;&#x443;&#x449;&#x435;&#x43D;, &#x432;&#x441;&#x451; &#x432; &#x43F;&#x43E;&#x440;&#x44F;&#x434;&#x43A;&#x435;](../.gitbook/assets/image%20%28232%29.png)
+![nginx &#x437;&#x430;&#x43F;&#x443;&#x449;&#x435;&#x43D;, &#x432;&#x441;&#x451; &#x432; &#x43F;&#x43E;&#x440;&#x44F;&#x434;&#x43A;&#x435;](../.gitbook/assets/image%20%28233%29.png)
 
 Если все сделано верно, сервер будет отвечать текстом **OK**:
 
@@ -423,7 +423,7 @@ http {
 
 Теперь перейдём в инструменты разработчика \(F12\), вкладка **Network**. В разделе **Throttling** \(справа от флага **Disable cache**\) выберем вариант **Offline**.
 
-![](../.gitbook/assets/image%20%28231%29.png)
+![](../.gitbook/assets/image%20%28232%29.png)
 
 В таком режиме обновление приложения \(F5\) выдаст страницу `offline.html`
 
