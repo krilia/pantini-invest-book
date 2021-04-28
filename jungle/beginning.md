@@ -109,7 +109,7 @@ If(!(Test-Path logs)){New-Item -ItemType Directory -Force -Path logs};If(!(Test-
 $ .\mkcert-v1.4.3-windows-amd64.exe -CAROOT
 ```
 
-Обычно это домашняя папка вида `C:\Users\pantini\WebstormProjects\jpx\mkcert`. Установить переменную окружения можно следующим образом \(ваш путь к репо может отличаться\):
+Обычно это домашняя папка вида `C:\Users\pantini\AppData\Local\mkcert`. Установить переменную окружения можно следующим образом \(ваш путь к репо может отличаться\):
 
 ```bash
 $ setx CAROOT "C:\Users\pantini\WebstormProjects\jpx\mkcert"
