@@ -1,6 +1,6 @@
 # Table of contents
 
-* [О книге](README.md)
+* [❓ Как читать материалы](README.md)
 
 ## 📌 FAQ
 
@@ -24,28 +24,20 @@
   * [Расписание торгов СПб/США](faq/stock-exchange/spbex-us-schedule.md)
   * [Определение цен открытия/закрытия бумаг с Nasdaq](faq/stock-exchange/nasdaq-crosses.md)
 
+## 💻 Терминал
+
+* [🖍 Об инструкциях](terminal/general-terms.md)
+* [🖍 Windows](terminal/windows.md)
+* [🖍 Linux](terminal/linux.md)
+* [🖍 Mac](terminal/mac.md)
+
+## Истоки <a id="origins"></a>
+
+* [Репозиторий рабочего проекта](origins/creating-a-repo.md)
+
 ## Пустоши <a id="wastelands"></a>
 
-* [Подготовка рабочей среды](wastelands/getting-started.md)
 * [Аврора - сохранение пароля и автоматический вход](wastelands/aurora-save-password-auto-login.md)
-* [Создание репозитория рабочего проекта](wastelands/creating-a-repo.md)
-
-## Болота <a id="marshes"></a>
-
-* [Подключение к рыночным данным Alor](marshes/alor-market-data.md)
-* [Автонажатие кнопок под сообщениями в TG-каналах](marshes/tg-button-autoclicking.md)
-
-## Пещеры <a id="caves"></a>
-
-* [Установка VMWare Player](caves/vmware-player-installation.md)
-* [Установка RHEL](caves/rhel-setup.md)
-* [Установка N\|Solid](caves/setting-up-nsolid.md)
-* [🖍 Знакомство с nginx](caves/nginx-crash-course.md)
-
-## Джунгли <a id="jungle"></a>
-
-* [🖍 Терминал: начало работы](jungle/beginning.md)
-* [🖍 Расширение для Chrome](jungle/chrome-extension.md)
 
 ## Обрезки <a id="bits"></a>
 
@@ -54,6 +46,15 @@
 
 ## Черновики <a id="drafts"></a>
 
+* [Подготовка рабочей среды](drafts/getting-started.md)
+* [Подключение к рыночным данным Alor](drafts/alor-market-data.md)
+* [Автонажатие кнопок под сообщениями в TG-каналах](drafts/tg-button-autoclicking.md)
+* [Установка VMWare Player](drafts/vmware-player-installation.md)
+* [Установка RHEL](drafts/rhel-setup.md)
+* [Установка N\|Solid](drafts/setting-up-nsolid.md)
+* [🖍 Знакомство с nginx](drafts/nginx-crash-course.md)
+* [🖍 Терминал: начало работы](drafts/beginning.md)
+* [🖍 Расширение для Chrome](drafts/chrome-extension.md)
 * [🖋 Чтение брокерского отчёта ТИ](drafts/reading-broker-rep.md)
 * [🖋 Redis, Visual Studio](drafts/redis-visual-studio.md)
 * [🖋 Система достижений](drafts/achievements/README.md)

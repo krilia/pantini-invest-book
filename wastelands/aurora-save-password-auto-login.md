@@ -82,6 +82,10 @@
 
 Делаем вывод, что Аврора - это **.NET Process**. Это означает, что терминал был скомпилирован для платформы [.NET](https://ru.wikipedia.org/wiki/.NET_Framework) от Microsoft.
 
+{% hint style="info" %}
+Процесс вместо жёлтого может быть приоритетнее подсвечен коричневым цветом \(Jobs\).
+{% endhint %}
+
 ### Декомпиляция
 
 {% hint style="danger" %}

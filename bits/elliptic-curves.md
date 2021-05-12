@@ -30,7 +30,7 @@
 
 ### Подготовка рабочего места
 
-Для работы понадобится платформа [Node.js](../wastelands/getting-started.md#setting-up-node-js) и язык [Python](../marshes/tg-button-autoclicking.md#installing-python).
+Для работы понадобится платформа [Node.js](../drafts/getting-started.md#setting-up-node-js) и язык [Python](../drafts/tg-button-autoclicking.md#installing-python).
 
 Полезно будет иметь под рукой математическое программное обеспечение [SageMath](https://www.sagemath.org/download.html). Если нет возможности установить SageMath, можно пользоваться онлайн-ячейкой для вычислений:
 
@@ -340,7 +340,7 @@ server.listen(port, hostname, () => {
 $ node ecies.mjs
 ```
 
-Проверяем работу через [Postman](../wastelands/getting-started.md#postman), передав для шифрования строку `flag`:
+Проверяем работу через [Postman](../drafts/getting-started.md#postman), передав для шифрования строку `flag`:
 
 ![&#x420;&#x435;&#x437;&#x443;&#x43B;&#x44C;&#x442;&#x430;&#x442; &#x432;&#x441;&#x435;&#x433;&#x434;&#x430; &#x431;&#x443;&#x434;&#x435;&#x442; &#x440;&#x430;&#x437;&#x43D;&#x44B;&#x43C; &#x438;&#x437;-&#x437;&#x430; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F; &#x44D;&#x444;&#x435;&#x43C;&#x435;&#x440;&#x43D;&#x44B;&#x445; &#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x439;](../.gitbook/assets/image%20%28217%29.png)
 
@@ -402,7 +402,7 @@ const decrypt = (payload) => {
 ```
 {% endcode %}
 
-Проверка через [Postman](../wastelands/getting-started.md#postman):
+Проверка через [Postman](../drafts/getting-started.md#postman):
 
 ![&#x41F;&#x43E;&#x43B;&#x443;&#x447;&#x438;&#x43B;&#x438; &#x438;&#x441;&#x445;&#x43E;&#x434;&#x43D;&#x443;&#x44E; &#x441;&#x442;&#x440;&#x43E;&#x43A;&#x443; flag](../.gitbook/assets/image%20%28218%29.png)
 
