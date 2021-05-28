@@ -2,7 +2,7 @@
 
 Привет! Если вы пришли за терминалом для торговли, то сразу переходите к инструкции для своей ОС:
 
-{% page-ref page="terminal/general-terms.md" %}
+{% page-ref page="terminal/about-guides.md" %}
 
 Если хотите подписаться на мои [каналы](https://t.me/lair_of_john) и/или вступить в открытую группу **Pantini & Co**, то смотрите раздел **FAQ**:
 

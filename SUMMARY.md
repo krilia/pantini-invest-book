@@ -26,10 +26,11 @@
 
 ## 💻 Терминал
 
-* [🖍 Об инструкциях](terminal/general-terms.md)
-* [🖍 Windows](terminal/windows.md)
-* [🖍 Linux](terminal/linux.md)
-* [🖍 Mac](terminal/mac.md)
+* [Об инструкциях](terminal/about-guides.md)
+* [GitHub.com](terminal/github.md)
+* [Windows](terminal/windows.md)
+* [Linux](terminal/linux.md)
+* [Mac](terminal/mac.md)
 
 ## Истоки <a id="origins"></a>
 
