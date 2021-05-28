@@ -26,11 +26,12 @@
 
 ## 💻 Терминал
 
-* [Об инструкциях](terminal/about-guides.md)
-* [GitHub.com](terminal/github.md)
-* [Windows](terminal/windows.md)
-* [Linux](terminal/linux.md)
-* [Mac](terminal/mac.md)
+* [1️⃣ Об инструкциях](terminal/about-guides.md)
+* [2️⃣ GitHub.com](terminal/github.md)
+* [3️⃣ MongoDB Realm](terminal/mongodb-realm.md)
+* [4️⃣ Windows](terminal/windows.md)
+* [4️⃣ Linux](terminal/linux.md)
+* [4️⃣ Mac](terminal/mac.md)
 
 ## Истоки <a id="origins"></a>
 
