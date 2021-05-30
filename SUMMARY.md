@@ -27,11 +27,10 @@
 ## 💻 Терминал
 
 * [1️⃣ Об инструкциях](terminal/about-guides.md)
-* [2️⃣ GitHub.com](terminal/github.md)
-* [3️⃣ MongoDB Realm](terminal/mongodb-realm.md)
-* [4️⃣ Windows](terminal/windows.md)
-* [4️⃣ Linux](terminal/linux.md)
-* [4️⃣ Mac](terminal/mac.md)
+* [2️⃣ GitHub.com и облачные сервисы](terminal/github-and-cloud.md)
+* [Windows](terminal/windows.md)
+* [Linux](terminal/linux.md)
+* [Mac](terminal/mac.md)
 
 ## Истоки <a id="origins"></a>
 
@@ -59,6 +58,7 @@
 * [🖍 Расширение для Chrome](drafts/chrome-extension.md)
 * [🖋 Чтение брокерского отчёта ТИ](drafts/reading-broker-rep.md)
 * [🖋 Redis, Visual Studio](drafts/redis-visual-studio.md)
+* [GitHub](drafts/github.md)
 * [🖋 Система достижений](drafts/achievements/README.md)
   * [Черновик с достижениями](drafts/achievements/achievement-draft.md)
 
