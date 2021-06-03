@@ -28,6 +28,7 @@
 
 * [1️⃣ Об инструкциях](terminal/about-guides.md)
 * [2️⃣ GitHub.com и облачные сервисы](terminal/github-and-cloud.md)
+* [3️⃣ Установка в виде PWA-приложения](terminal/pwa.md)
 * [Windows](terminal/windows.md)
 * [Linux](terminal/linux.md)
 * [Mac](terminal/mac.md)
