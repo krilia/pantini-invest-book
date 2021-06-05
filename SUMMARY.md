@@ -35,7 +35,7 @@
 
 ## Истоки <a id="origins"></a>
 
-* [Репозиторий рабочего проекта](origins/creating-a-repo.md)
+* [Локальная разработка терминала](origins/terminal-local-development.md)
 
 ## Пустоши <a id="wastelands"></a>
 
@@ -55,6 +55,7 @@
 * [Установка RHEL](drafts/rhel-setup.md)
 * [Установка N\|Solid](drafts/setting-up-nsolid.md)
 * [🖍 Знакомство с nginx](drafts/nginx-crash-course.md)
+* [Репозиторий рабочего проекта](drafts/creating-a-repo.md)
 * [🖍 Терминал: начало работы](drafts/beginning.md)
 * [🖍 Расширение для Chrome](drafts/chrome-extension.md)
 * [🖋 Чтение брокерского отчёта ТИ](drafts/reading-broker-rep.md)
